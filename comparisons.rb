@@ -23,25 +23,26 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students 
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+puts "Is number_teachers not equal to number_students?" , number_teachers != number_students 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+puts "Is number_students greater than or equal to 20?" , number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+puts "Is number_students greater than or equal to 21?" , number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+puts "Is number_students less than or equal to 20?" , number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -53,21 +54,24 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# it is seeing if 4 is less than 9 this will print true. 
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: this is declaring a variable called books and assigning it a integer of 3. 
+#Then the puts statement is seeing if 4 is less than the books variable of 3 which it isn't so it will return false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: This is declaring a variable friends as 6 and a siblings as 2 and then comparing the two
+#seeing if friends is greater than siblings which it is so this will return true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# This declares a variable attendees as 9 and meals as 8
+# then printing if attendees is not equal to meals which is true
 
 
 #-------------------
@@ -90,15 +94,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats 
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age == 1 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It will evaluate to true because I made sure the age was equal to 1 making the dog a puppy
